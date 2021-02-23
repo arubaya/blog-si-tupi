@@ -1,0 +1,172 @@
+main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+/* CONTACT PAGE STYLE */
+.contact-page {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.contact-page .img {
+  width: 268px;
+  height: 402px;
+}
+.container-contact {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: auto;
+}
+.container-contact h1 {
+  font-size: 60px;
+}
+.container-contact .container-sosmed {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-around;;
+}
+.container-sosmed .sosmed-list {
+  width: 120px;
+  height: 100px;
+  /* margin-top: 20px; */
+  /* margin-right: 10px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sosmed-list .icon-contact img {
+  width: 50px;
+  height: 50px;
+}
+.sosmed-list img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sosmed-list .sosmed-detail {
+  width: 100%;
+  height: auto;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sosmed-detail .line {
+  height: 2px;
+  width: 70%;
+  background-color: #080714;
+  margin-top: 10px;
+}
+.sosmed-detail a {
+  font-size: 12px;
+  color: #080714;
+  text-align: center;
+  margin-top: 12px;
+  font-weight: bold;
+}
+.sosmed-list:hover .sosmed-detail {
+  visibility: visible;
+  transition: 1s ease;
+}
+
+/* Aside Start */
+aside {
+  width: 25%;
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 80px;
+}
+.identity {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.identity .container-img {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+}
+.container-article-aside {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.container-article-aside h1 {
+  font-size: 18px;
+  margin: 0;
+}
+.container-article-aside h2 {
+  font-size: 15px;
+}
+.container-article-aside p {
+  font-size: 14;
+}
+.container-article-aside .btn-profile {
+  border: 1px solid #080714;
+  color: #080714;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  padding: 6px;
+  height: auto;
+  width: auto;
+}
+.container-article-aside .btn-profile:hover {
+  background-color: #080714;
+  color: #fff;
+}
+.container-img {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+.container-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 576px) {
+  .container-contact h1 {
+    font-size: 40px;
+  }
+  .container-contact {
+    margin-left: 20px;
+  }
+  .contact-page .img {
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width: 970px) {
+  .contact-page {
+    margin-left: 0;
+  }
+  .sosmed-list .icon-contact img {
+    width: 30px;
+    height: 30px;
+  }
+  .container-sosmed .sosmed-list {
+    width: 70px;
+    height: 100px;
+  }
+  .sosmed-detail a {
+    font-size: 12px;
+    margin-top: 12px;
+  }
+}

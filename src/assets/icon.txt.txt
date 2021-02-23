@@ -1,0 +1,5 @@
+<i class="fab fa-instagram"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-medium-m"></i>
+<i class="far fa-envelope"></i>
+<i class="fas fa-phone-alt"></i>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <g id="Logo" transform="translate(-156 -161)">
+    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(156 161)" fill="#fff" stroke="#707070" stroke-width="2">
+      <rect width="50" height="50" stroke="none"/>
+      <rect x="1" y="1" width="48" height="48" fill="none"/>
+    </g>
+    <g id="Group_3" data-name="Group 3" transform="translate(0 -1)">
+      <text id="T" transform="translate(166 185)" fill="#707070" font-size="17" font-family="SFProText-Heavy, SF Pro Text" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">T</tspan></text>
+      <text id="U" transform="translate(183 185)" fill="#707070" font-size="17" font-family="SFProText-Heavy, SF Pro Text" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">U</tspan></text>
+      <text id="P" transform="translate(166 202)" fill="#707070" font-size="17" font-family="SFProText-Heavy, SF Pro Text" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">P</tspan></text>
+      <text id="I" transform="translate(187 202)" fill="#707070" font-size="17" font-family="SFProText-Heavy, SF Pro Text" font-weight="800" letter-spacing="0.1em"><tspan x="0" y="0">I</tspan></text>
+    </g>
+  </g>
+</svg>
